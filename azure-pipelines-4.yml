@@ -4,7 +4,7 @@ trigger:
 
 # Use self-hosted agent
 pool:
-  name: 'Default'  # Use the agent pool name where the self-hosted agent is registered
+  name: 'Azure Pipelines'  # Use the agent pool name where the self-hosted agent is registered
 
 steps:
 - script: echo "Starting the build on a self-hosted agent..."
